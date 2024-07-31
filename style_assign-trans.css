@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+        background: url(images/wall.jpeg) ;
+        height: 500px;
+}
+
+img{
+    width: 1580px;
+    height: 280px;
+    position: absolute;
+    top: 370px;
+}
+
+.jossy {
+    display: flex;
+    align-items: center;
+   position: relative;
+    animation: jossy 3s 1 alternate;
+}
+
+
+
+.oloo {
+    height: 90px;
+    width: 180px;
+     bottom: 15px;
+    left: 500px;
+}
+
+.one {
+    height: 110px;
+    width: 180px;
+   left: 1000px;
+}
+
+.two {
+    height: 90px;
+    width: 180px;
+    left: 300px;
+}
+
+.three {
+    height: 70px;
+    width: 150px;
+    left: 750px;
+}
+
+.three {
+    height: 70px;
+    width: 150px;
+    left: 750px;
+}
+
+.four {
+    height: 70px;
+    width: 150px;
+    left: -20px;
+}
+
+.five {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 115px;
+    animation: five 3s 1 alternate;
+}
+
+.six {
+    height: 70px;
+    width: 150px;
+    left: -10px;
+}
+
+.seven {
+    height: 90px;
+    width: 200px;
+    left: 480px;
+}
+
+.eight {
+    height: 70px;
+    width: 150px;
+    left: 800px;
+}
+
+@keyframes jossy {
+    from {
+       transform: translateX(1550px);
+        
+      }
+     to {
+        
+        transform: translateX(0);
+     }
+
+}
+
+@keyframes five {
+    from {
+        transform: translateX(0);
+         
+       }
+      to {
+         
+         transform: translateX(1550px);
+      }
+}
+
+.nine {
+    border: none;
+    background: rebeccapurple;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+}
+
+.ten {
+    border: none;
+    background: rebeccapurple;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 280px;
+}
+
+.eleven {
+    border: none;
+    background: rebeccapurple;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 560px;
+}
+
+.twelve {
+    border: none;
+    background: rebeccapurple;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 840px;
+}
+
+.thirteen {
+    border: none;
+    background: rebeccapurple;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 1120px;
+}
